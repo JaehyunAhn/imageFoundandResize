@@ -9,6 +9,7 @@ Contribution date: 03/02/2015
 Sogang University (c) All rights reserved
 """
 
+# read and crop images
 images = collect_images('./yeragoData')
 print len(images), 'files will read.'
-
+data_processing(images)
